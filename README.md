@@ -1,1 +1,1 @@
-# Java-Projects-Wuerfe-Spiel
+# Java-Project-Wuerfe-Spiel

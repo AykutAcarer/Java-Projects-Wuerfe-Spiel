@@ -1,5 +1,8 @@
 package code.Wuerfel;
-
+/**
+ * @author Aykut Acarer
+ * 
+ */
 import java.util.Random;
 import java.util.Scanner;
 
@@ -7,7 +10,7 @@ public class WuerfelProgramm {
 
 	public static void main(String[] args) {
 		
-		/* Das Programm für Wuerfel */
+		/* Das Programm fÃ¼r Wuerfel */
 		
 		int eingabe=0;
 		int gewinnZahlSpieler=0, gewinnZahlComputer=0, unentschiedenZahl=0, zahl=0;
@@ -30,7 +33,7 @@ public class WuerfelProgramm {
 				System.out.println("unentschieden");
 				unentschiedenZahl++;
 			}
-			System.out.println("Möchten Sie nochmal wuerfeln?.....1-Ja/2-Nein");
+			System.out.println("MÃ¶chten Sie nochmal wuerfeln?.....1-Ja/2-Nein");
 			eingabe = new Scanner(System.in).nextInt();
 		}
 		while(eingabe==1);
